@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ede9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    width: 350px;
+    
+    
+}
+
+img {
+    width: 100%;
+    
+}
+
+.conteudo {
+    background-color: white;
+    padding: 40px;
+}
