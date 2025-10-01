@@ -13,10 +13,19 @@ body {
     height: 100vh;
 }
 
-div {
+.container {
     width: 350px;
+    background-color: white;
     
-    
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+p {
+    color: #00000080;
 }
 
 img {
@@ -25,6 +34,23 @@ img {
 }
 
 .conteudo {
-    background-color: white;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divmusica {
+    background-color: rgb(35, 81, 81);
+    display: flex;
+    padding: 10px;
+    border-radius: 16px;
+    margin: 14px;
+}
+
+.musica {
+    width: 80px;
+    height: 80px;
+
 }
