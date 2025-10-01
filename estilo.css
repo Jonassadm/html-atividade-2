@@ -11,11 +11,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
 
 .container {
     width: 350px;
-    background-color: white;
+    
     
 }
 
@@ -30,27 +31,11 @@ p {
 
 img {
     width: 100%;
+    border-radius: 8px 8px 0px 0px;
     
 }
 
 .conteudo {
+    background-color: white;
     padding: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.divmusica {
-    background-color: rgb(35, 81, 81);
-    display: flex;
-    padding: 10px;
-    border-radius: 16px;
-    margin: 14px;
-}
-
-.musica {
-    width: 80px;
-    height: 80px;
-
 }
