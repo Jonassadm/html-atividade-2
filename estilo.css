@@ -16,8 +16,11 @@ body {
 
 .container {
     width: 350px;
-    
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
 }
 
 h1 {
@@ -29,13 +32,39 @@ p {
     color: #00000080;
 }
 
-img {
+.monitor {
     width: 100%;
     border-radius: 8px 8px 0px 0px;
     
 }
 
+.iconmusica {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
 .conteudo {
     background-color: white;
     padding: 40px;
+}
+
+.divmusica {
+    display: flex;
+    background-color: #cfcfcf;
+    padding: 10px;
+    border-radius: 30px;
+    width: 310px;
+    height: 90px;
+}
+
+a {
+    margin: 10px;
+    
+    
+}
+.botao {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
